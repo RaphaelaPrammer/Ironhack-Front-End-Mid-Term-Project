@@ -15,7 +15,6 @@ Goals:
 - HTML Structure Contact Us Page
 - CSS Landing Page
 - CSS Contact us Page
-- CSS Responsive Design
 
 Doing/ Work in Progress:
 
@@ -38,6 +37,7 @@ Difficulties:
 
 Goals:
 
+- CSS Responsive Design
 - JS Fetch GET for Recent Projects
 - JS Fetch POST for Contact Us Form
 - HTML + CSS + Responsive D. for 3 Project Pages
