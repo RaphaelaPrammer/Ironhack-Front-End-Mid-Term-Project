@@ -11,48 +11,27 @@ In this project, I am going to be building and deploying my first fully responsi
 
 Goals:
 
-- HTML Structure Landing Page
-- HTML Structure Contact Us Page
-- CSS Landing Page
-- CSS Contact us Page
-
-Doing/ Work in Progress:
-
--
--
--
-
-Done:
-
--
--
--
+- [x] HTML Structure Landing Page
+- [x] HTML Structure Contact Us Page
+- [x] CSS Landing Page
+- [x] CSS Contact us Page
 
 Difficulties:
 
--
--
+- structuring the html already in a good way for CSS
+- divs in divs in divs in divs - overview and descriptive names for classes
+- find common behaviors of parts/sections for sharing classes. --> can be improved for this page!!!!
+- !! Contact Form Problem with the split row with phone and email!!!
 
 ### **Day 3: Wednesday 23/11/2022**
 
 Goals:
 
-- CSS Responsive Design
-- JS Fetch GET for Recent Projects
-- JS Fetch POST for Contact Us Form
-- HTML + CSS + Responsive D. for 3 Project Pages
-
-Doing/ Work in Progress:
-
--
--
--
-
-Done:
-
--
--
--
+- [ ] Responsive Design Landing Page
+- [ ] Responsive Design Contact US Page
+- [ ] HTML Template Projects
+- [ ] CSS Template Projects
+- [ ] Responsive Design Template Projects
 
 Difficulties:
 
@@ -63,15 +42,9 @@ Difficulties:
 
 Goals:
 
--
--
--
-
-Done:
-
--
--
--
+- [ ] JS Fetch GET for Recent Projects
+- [ ] JS Fetch POST for Contact Us Form
+- [ ] add Animations to Landing Page
 
 Difficulties:
 
@@ -82,20 +55,8 @@ Difficulties:
 
 Goals:
 
-- structuring and creating Presentation Slides
-- Presentation 15:00
--
-
-Doing/ Work in Progress:
-
--
--
--
-
-Done:
-
--
--
+- [ ] structuring and creating Presentation Slides
+- [ ] Presentation 15:00
 -
 
 Difficulties:

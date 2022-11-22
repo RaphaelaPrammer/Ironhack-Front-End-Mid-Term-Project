@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RP Contact Us</title>
+    <link rel="stylesheet" href="./styles/styles-home.css" />
+  </head>
+  <body>
+    <!-- Header Section  -->
+    <header>
+      <div id="header-container">
+        <div>
+          <a href="#"
+            ><img src="./project-assets/logos/circle.svg" alt="Circle-logo"
+          /></a>
+        </div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#recentProjects">Projects</a>
+          <a href="#services">Services</a>
+        </nav>
+        <div>
+          <!-- <div>
+            <img src="./project-assets/header/menue.png" alt="menu" />
+          </div> -->
+          <a href="./contactUs.html" class="contactBtn">Contact Us</a>
+        </div>
+      </div>
+    </header>
+    <!-- Form section  -->
+    <section id="contactUs">
+      <h1>Contact Us</h1>
+      <div>
+        <form
+          class="form-contact-container"
+          id="email-form"
+          name="email-form"
+          method="get"
+        >
+          <div class="contact-wrapper">
+            <label for="name" class="contact-title">Full Name*</label>
+            <input
+              type="text"
+              class="contact-text-input"
+              placeholder="Enter your full name"
+              id="name"
+              required
+            />
+          </div>
+          <div class="contact-row">
+            <div class="contact-wrapper">
+              <label for="mail" class="contact-title">Email</label>
+              <input
+                type="email"
+                class="contact-text-input row"
+                placeholder="Enter your email"
+                id="mail"
+              />
+            </div>
+            <div class="contact-wrapper">
+              <label for="phone" class="contact-title">Phone</label>
+              <input
+                type="email"
+                class="contact-text-input row"
+                placeholder="Enter your phone"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div class="contact-wrapper">
+            <label for="message" class="contact-title">Message*</label>
+            <textarea
+              class="contact-text-input textarea"
+              placeholder="Write your message here..."
+              maxlength="5000"
+              id="message"
+              required
+              data-name="message"
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            data-wait="Please wait..."
+            id=""
+            class="contact-submit-btn"
+          />
+        </form>
+        <!-- <div class="s-form-done"></div>
+          <div class="s-form-fail"></div> -->
+      </div>
+    </section>
+    <!-- Footer  -->
+    <footer>
+      <div class="containerFooter">
+        <div class="footer-content">
+          <img src="./project-assets/logos/circle.svg" alt="logo" />
+          <p>
+            2972 Westheimer Rd. Stanta Ana,<br />
+            Illinois 85486
+          </p>
+        </div>
+        <div class="footerLinks">
+          <a href="#">Team</a>
+          <a href="#services">Services</a>
+          <a href="#">About Us</a>
+          <a href="#">Press</a>
+          <a href="#recentProjects">Projects</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

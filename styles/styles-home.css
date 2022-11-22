@@ -12,7 +12,9 @@ body {
 body a {
   text-decoration: none;
 }
-
+.margin-top {
+  margin-top: 100px;
+}
 /*------------------------*/
 /*------------------------*/
 /* Header  */
@@ -30,7 +32,7 @@ nav a:first-child {
   color: #0082f3;
 }
 
-#container {
+#header-container {
   display: flex;
   justify-content: space-between;
   max-width: 1100px;
@@ -50,7 +52,14 @@ nav a:first-child {
 /* Heros section  */
 /*------------------------*/
 /*------------------------*/
-
+#heros-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
 .heroimg {
   width: 500px;
   max-width: 100%;
@@ -107,6 +116,14 @@ nav a:first-child {
 /*Client Section*/
 /*------------------------*/
 /*------------------------*/
+#client-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
 .clientImg {
   width: 80px;
 }
@@ -117,7 +134,7 @@ nav a:first-child {
 /*------------------------*/
 /*------------------------*/
 #recentProjects {
-  margin: 200px auto 0 auto;
+  margin: 100px auto 0 auto;
   max-width: 1100px;
 }
 #recentProjects h2 {
@@ -173,8 +190,6 @@ nav a:first-child {
   background-color: #292e47;
   background-image: url("/project-assets/testimonial-section/orbit.png");
   background-size: contain;
-  /* background-repeat: none;
-  background-position: 0 0; */
   margin: 200px auto 0 auto;
   position: relative;
   width: 1320px;
@@ -387,4 +402,70 @@ nav a:first-child {
 .footer-content p,
 a {
   font-size: 0.9rem;
+}
+
+/*------------------------*/
+/*------------------------*/
+/* Contact Form  */
+/*------------------------*/
+/*------------------------*/
+
+#contactUs {
+  margin: 100px auto 0 auto;
+  max-width: 1100px;
+}
+
+#contactUs h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #292e47;
+  width: 100%;
+  padding: 0;
+}
+.form-contact-container {
+  display: flex;
+  flex-direction: column;
+}
+.contact-title {
+  font-size: 1.3rem;
+  color: #6b708d;
+  padding: 20px 0 10px 0;
+}
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contact-text-input {
+  background-color: rgba(107, 112, 141, 0.1);
+  border: none;
+  width: auto;
+  height: 70px;
+  font-size: 1rem;
+  padding-left: 20px;
+}
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  /* width: 100%; */
+}
+
+.contact-text-input.row {
+  width: 500px;
+}
+.contact-text-input.textarea {
+  height: 200px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.contact-submit-btn {
+  color: #ffff;
+  background-color: #072ac8;
+  border: none;
+  padding: 30px 30px;
+  margin-top: 20px;
 }
