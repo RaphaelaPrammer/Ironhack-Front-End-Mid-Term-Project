@@ -33,7 +33,7 @@ nav a:first-child {
 #container {
   display: flex;
   justify-content: space-between;
-  max-width: 85vw;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
@@ -118,7 +118,7 @@ nav a:first-child {
 /*------------------------*/
 #recentProjects {
   margin: 200px auto 0 auto;
-  max-width: 85vw;
+  max-width: 1100px;
 }
 #recentProjects h2 {
   font-size: 2rem;
@@ -129,10 +129,12 @@ nav a:first-child {
 .grid-projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2%;
 }
 
 .project-card {
   width: 340px;
+  /* width: auto; */
   background-color: white;
 }
 .project-card-img {
@@ -175,7 +177,7 @@ nav a:first-child {
   background-position: 0 0; */
   margin: 200px auto 0 auto;
   position: relative;
-  width: 95vw;
+  width: 1320px;
 }
 
 #testimonial-Container {
@@ -187,12 +189,12 @@ nav a:first-child {
 }
 
 .testimonials-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ecf7ff;
 }
 .testimonials-text {
   color: #ffc600;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: 500;
 }
@@ -215,6 +217,7 @@ nav a:first-child {
 }
 .client-info span {
   color: white;
+  font-size: 0.9rem;
 }
 
 /* emojis  */
@@ -250,7 +253,7 @@ nav a:first-child {
 
 #services {
   margin: 200px auto 0 auto;
-  max-width: 85vw;
+  max-width: 1100px;
 }
 #services h2 {
   font-size: 2rem;
@@ -305,17 +308,83 @@ nav a:first-child {
 
 /*------------------------*/
 /*------------------------*/
+/* Subscribe section  */
+/*------------------------*/
+/*------------------------*/
+
+#subscribe {
+  height: 450px;
+  background-color: #ffc600;
+  margin: 200px auto 0 auto;
+  /* position: relative; */
+  width: 1320px;
+}
+.subscribeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.subscribeContainer h2 {
+  font-size: 2.5rem;
+  color: #292e47;
+  margin: 20px 0;
+}
+.subscribeContainer p {
+  font-size: 0.9rem;
+  color: #6b708d;
+  margin: 0 auto 20px auto;
+}
+
+/*FORM*/
+#email-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-textfield-wrapper {
+  background-color: white;
+  /* padding: 10px 30px; */
+  margin-right: 20px;
+  display: flex;
+  width: 300px;
+  padding: 10px 0;
+}
+.subscribe-textfield-wrapper img {
+  width: 25px;
+  padding: 0px 10px;
+}
+.subscribe-textfield-wrapper input {
+  border: none;
+  align-items: center;
+}
+.subscribeBtn {
+  color: #ffff;
+  background-color: #072ac8;
+  border: none;
+  padding: 15px 30px;
+}
+
+/*------------------------*/
+/*------------------------*/
 /* footer  */
 /*------------------------*/
 /*------------------------*/
 .containerFooter {
   display: flex;
   justify-content: space-between;
-  max-width: 85vw;
-  margin: 50px auto 50px auto;
+  max-width: 1100px;
+  margin: 100px auto 50px auto;
 }
 
 .footerLinks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-content p,
+a {
+  font-size: 0.9rem;
 }

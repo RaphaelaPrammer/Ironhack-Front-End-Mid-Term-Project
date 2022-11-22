@@ -236,13 +236,13 @@
 
     <!-- Subscribe section  -->
     <section id="subscribe">
-      <div class="container-colum">
+      <div class="subscribeContainer">
         <h2>Do you have any questions?</h2>
         <p>Let us help you!</p>
         <div class="form-block">
           <form
             action=""
-            id="email-subsrcibe"
+            id="email-subscribe"
             name="email-subscribe"
             method="get"
           >
@@ -260,10 +260,15 @@
                 required
               />
             </div>
-            <input type="submit" value="Subscribe" data-wait="Please wait..." />
+            <input
+              class="subscribeBtn"
+              type="submit"
+              value="Subscribe"
+              data-wait="Please wait..."
+            />
           </form>
-          <div class="s-form-done"></div>
-          <div class="s-form-fail"></div>
+          <!-- <div class="s-form-done"></div>
+          <div class="s-form-fail"></div> -->
         </div>
       </div>
     </section>
