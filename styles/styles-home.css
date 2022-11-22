@@ -13,6 +13,11 @@ body a {
   text-decoration: none;
 }
 
+/*------------------------*/
+/*------------------------*/
+/* Header  */
+/*------------------------*/
+/*------------------------*/
 header {
   margin-top: 5rem;
   font-size: 1.2rem;
@@ -28,7 +33,7 @@ nav a:first-child {
 #container {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 85vw;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
@@ -41,7 +46,10 @@ nav a:first-child {
 }
 
 /*------------------------*/
+/*------------------------*/
 /* Heros section  */
+/*------------------------*/
+/*------------------------*/
 
 .heroimg {
   width: 500px;
@@ -50,7 +58,7 @@ nav a:first-child {
 }
 .cardimg1 {
   position: absolute;
-  left: -10%;
+  left: -20%;
   top: 0%;
   right: auto;
   bottom: auto;
@@ -95,16 +103,68 @@ nav a:first-child {
 }
 
 /*------------------------*/
+/*------------------------*/
 /*Client Section*/
+/*------------------------*/
+/*------------------------*/
 .clientImg {
   width: 80px;
 }
 
 /*------------------------*/
+/*------------------------*/
 /*Recent Projects*/
+/*------------------------*/
+/*------------------------*/
+#recentProjects {
+  margin: 200px auto 0 auto;
+  max-width: 85vw;
+}
+#recentProjects h2 {
+  font-size: 2rem;
+  color: #292e47;
+  margin-bottom: 70px;
+}
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-card {
+  width: 340px;
+  background-color: white;
+}
+.project-card-img {
+  width: 340px;
+  height: 240px;
+}
+
+.project-card h4 {
+  font-size: 1.3rem;
+  color: #292e47;
+  font-weight: 500;
+  margin: 30px 40px;
+}
+
+.project-card p {
+  color: #292e47;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 20px 40px;
+}
+
+.project-card a {
+  font-size: 1rem;
+  margin: 30px 40px;
+  display: inline-block;
+}
 
 /*------------------------*/
+/*------------------------*/
 /*Testimonial Section*/
+/*------------------------*/
+/*------------------------*/
 
 #testimonials {
   height: 620px;
@@ -115,7 +175,7 @@ nav a:first-child {
   background-position: 0 0; */
   margin: 200px auto 0 auto;
   position: relative;
-  width: 1320px;
+  width: 95vw;
 }
 
 #testimonial-Container {
@@ -181,11 +241,77 @@ nav a:first-child {
   bottom: 10%;
   left: 10%;
 }
+
+/*------------------------*/
+/*------------------------*/
+/*OUR SERVICES SECTION*/
+/*------------------------*/
+/*------------------------*/
+
+#services {
+  margin: 200px auto 0 auto;
+  max-width: 85vw;
+}
+#services h2 {
+  font-size: 2rem;
+  color: #292e47;
+  margin-bottom: 70px;
+}
+
+.grid-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-card {
+  width: 340px;
+  background-color: white;
+}
+.service-card h4 {
+  font-size: 1.3rem;
+  color: #292e47;
+  font-weight: 500;
+  margin: 30px 40px;
+}
+
+.service-card p {
+  color: #292e47;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 20px 40px;
+}
+
+.service-card a {
+  font-size: 1rem;
+  margin: 30px 40px;
+  display: inline-block;
+}
+.service-card-icon {
+  background-color: #ecf7ff;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 2rem;
+  background-image: url("/project-assets/services-section/icons/1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-2 {
+  background-image: url("/project-assets/services-section/icons/2.svg");
+}
+.icon-3 {
+  background-image: url("/project-assets/services-section/icons/3.svg");
+}
+
+/*------------------------*/
+/*------------------------*/
 /* footer  */
+/*------------------------*/
+/*------------------------*/
 .containerFooter {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 85vw;
   margin: 50px auto 50px auto;
 }
 
