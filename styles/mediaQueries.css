@@ -1,20 +1,48 @@
 @media screen and (max-width: 480px) {
+  /* * {
+    margin: 0;
+  } */
   .heros-buttons-container {
     flex-direction: column-reverse;
   }
   #heros-container {
     margin-top: 0;
   }
-  #hero-content.p {
-    font-size: 1rem;
+  #heros-container h1 {
+    margin-top: 0;
   }
-
+  #hero-content.p {
+    font-size: 0.9rem;
+  }
+  .heroimg {
+    /* width: 50%; */
+    max-width: 350px;
+    float: none;
+  }
   /* Testimonials  */
   .testimonials-heading {
     width: 350px;
   }
   .testimonials-text {
     width: 350px;
+  }
+
+  /* ---------PROJECT PAGES -------------- */
+  /* Header  */
+
+  /* Project Section  */
+  #projectSection {
+    margin-top: 20px;
+  }
+  #projectSection h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  .project-type-wrapper {
+    flex-direction: column;
+  }
+  .project-page-type {
+    font-size: 1.3rem;
   }
 }
 
@@ -36,7 +64,8 @@
     text-align: center;
   }
   #hero-imgs {
-    width: auto;
+    /* width: 50%; */
+    max-width: 450px;
   }
   .cardimg {
     display: none;
@@ -121,6 +150,7 @@
     width: 100%;
     margin-right: 0;
     margin-bottom: 5px;
+    justify-content: center;
   }
   .subscribeBtn {
     width: 100%;
@@ -136,21 +166,69 @@
   .footer-content {
     text-align: center;
   }
+
+  /* ---------------- */
+  /* CONTACT US  */
+  .contact-row-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
 }
 
-/* -----------------  */
+/* ----------------------------------------------  */
 
-/* -----------------  */
+/* --------------------------------------------------  */
 
-/* -----------------  */
+/* ------------------------------------------------  */
 
-@media (min-width: 760px) and (max-width: 990px) {
+/* @media (min-width: 760px) and (max-width: 990px)  */
+@media screen and (max-width: 990px) {
+  /* NAVBAR  */
+  .contactBtn1 {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    float: right;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: relative;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffc600;
+    width: 80%;
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  .nav-item {
+    margin: 20px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .navbar {
+    margin: 20px auto;
+  }
+  /* ------------------------------------  */
+  /* Heros  */
   #heros-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .heros-buttons-container {
     flex-direction: row-reverse;
@@ -164,7 +242,7 @@
   #hero-imgs {
     width: auto;
   }
-
+  /* ------------------------------------  */
   /* Clients  */
   #client-container {
     display: grid;
@@ -177,14 +255,14 @@
   #client-container img:last-child {
     display: none;
   }
-
+  /* ------------------------------------  */
   /* Projects  */
 
   .grid-container-projects {
     grid-template-columns: 1fr 1fr;
     /* grid-template-rows: auto; */
   }
-
+  /* ------------------------------------  */
   /* Testimonial  */
   .testimonials-heading {
     max-width: 400px;
@@ -197,7 +275,7 @@
   #testimonial-Container {
     height: 500px;
   }
-
+  /* ------------------------------------  */
   /* Services  */
   #services {
     margin-top: 50px;
@@ -205,5 +283,6 @@
   #services h2 {
     margin-bottom: 40px;
   }
+  /* ------------------------------------  */
   /* Subscribe  */
 }
