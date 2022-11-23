@@ -27,10 +27,11 @@ Difficulties:
 
 Goals:
 
-- [ ] Responsive Design Landing Page
-- [ ] Responsive Design Contact US Page
+- [ ] improve CSS - group classes with same behavior/styles
 - [ ] HTML Template Projects
 - [ ] CSS Template Projects
+- [ ] Responsive Design Landing Page
+- [ ] Responsive Design Contact US Page
 - [ ] Responsive Design Template Projects
 
 Difficulties:
