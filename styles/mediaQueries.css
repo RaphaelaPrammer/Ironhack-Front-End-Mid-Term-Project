@@ -1,0 +1,209 @@
+@media screen and (max-width: 480px) {
+  .heros-buttons-container {
+    flex-direction: column-reverse;
+  }
+  #heros-container {
+    margin-top: 0;
+  }
+  #hero-content.p {
+    font-size: 1rem;
+  }
+
+  /* Testimonials  */
+  .testimonials-heading {
+    width: 350px;
+  }
+  .testimonials-text {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  #heros-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+  }
+  .heros-buttons-container {
+    flex-direction: row-reverse;
+  }
+  #hero-content {
+    width: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  #hero-imgs {
+    width: auto;
+  }
+  .cardimg {
+    display: none;
+  }
+  /* Clients  */
+  #client-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    grid-row-gap: 50px;
+    margin-top: 50px;
+  }
+  #client-container.grid-clients img:last-child {
+    display: none;
+  }
+  /* Projects  */
+  #recentProjects h2 {
+    text-align: center;
+  }
+  .grid-container-projects {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .project-card {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-card-img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+
+  /* Testimonials  */
+  .emoji {
+    display: none;
+  }
+  #testimonials {
+    height: 420px;
+    margin: 50px auto 0 auto;
+    max-width: 100%;
+  }
+  #testimonial-Container {
+    height: 420px;
+  }
+  .testimonials-heading {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  /* Services  */
+  #services {
+    margin-top: 50px;
+  }
+  #services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .grid-container-services {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .service-card {
+    width: 100%;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 25px;
+  }
+
+  /* Subscribe  */
+  #subscribe {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #email-subscribe {
+    flex-direction: column;
+  }
+  .subscribe-textfield-wrapper {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .subscribeBtn {
+    width: 100%;
+  }
+
+  /* Footer  */
+
+  .containerFooter {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .footer-content {
+    text-align: center;
+  }
+}
+
+/* -----------------  */
+
+/* -----------------  */
+
+/* -----------------  */
+
+@media (min-width: 760px) and (max-width: 990px) {
+  #heros-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+  }
+  .heros-buttons-container {
+    flex-direction: row-reverse;
+  }
+  #hero-content {
+    width: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  #hero-imgs {
+    width: auto;
+  }
+
+  /* Clients  */
+  #client-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    grid-row-gap: 50px;
+    margin-top: 100px;
+  }
+  #client-container img:last-child {
+    display: none;
+  }
+
+  /* Projects  */
+
+  .grid-container-projects {
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: auto; */
+  }
+
+  /* Testimonial  */
+  .testimonials-heading {
+    max-width: 400px;
+    text-align: center;
+  }
+  #testimonials {
+    height: 500px;
+    margin-top: 50px;
+  }
+  #testimonial-Container {
+    height: 500px;
+  }
+
+  /* Services  */
+  #services {
+    margin-top: 50px;
+  }
+  #services h2 {
+    margin-bottom: 40px;
+  }
+  /* Subscribe  */
+}

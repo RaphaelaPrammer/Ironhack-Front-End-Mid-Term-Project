@@ -21,7 +21,7 @@ body a {
 /*------------------------*/
 /*------------------------*/
 header {
-  margin-top: 5rem;
+  margin-top: 50px;
   font-size: 1.2rem;
 }
 header a {
@@ -35,18 +35,23 @@ nav a:first-child {
 #header-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
+  /* max-width: 1100px; */
+  max-width: 90%;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .contactBtn {
   color: #ffff;
   background-color: #072ac8;
   padding: 15px 30px;
+  margin: 0 20px;
 }
 
+.contactBtn:hover {
+  background-color: #292e47;
+}
 /*------------------------*/
 /*------------------------*/
 /* Heros section  */
@@ -55,15 +60,17 @@ nav a:first-child {
 #heros-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
-  /* max-width: 80%; */
+  /* max-width: 1100px; */
+  max-width: 90vw;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
 }
 .heroimg {
-  width: 500px;
-  max-width: 100%;
+  /* width: 40vw; */
+  /* width: 500px; */
+  /* width: 100%; */
+  max-width: 500px;
   float: right;
 }
 .cardimg1 {
@@ -90,27 +97,35 @@ nav a:first-child {
 }
 
 #hero-content {
-  width: 550px;
+  /* width: 40vw; */
+  display: flex;
+  flex-direction: column;
 }
+
 #hero-content h1 {
-  font-size: 3.5rem;
-  /* font-size: 5vw; */
+  font-size: 2rem;
   font-weight: 500;
   color: #292e47;
-  width: 100%;
+  width: 90%;
   padding: 0;
-  margin-top: 100px;
+  /* margin-top: 30px; */
 }
 
 #hero-content p {
-  font-size: 1.3rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   max-width: 80%;
+  /* margin-bottom: 4vh; */
 }
 
 #hero-content a {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   padding-right: 20px;
+}
+.heros-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 /*------------------------*/
@@ -121,7 +136,8 @@ nav a:first-child {
 #client-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
+  /* max-width: 1100px; */
+  max-width: 90%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
@@ -135,56 +151,75 @@ nav a:first-child {
 /*Recent Projects*/
 /*------------------------*/
 /*------------------------*/
+
 #recentProjects {
   margin: 100px auto 0 auto;
-  max-width: 1100px;
-  display: flex;
-  flex-direction: column;
+  /* max-width: 1100px; */
+  max-width: 90%;
+  /* display: flex;
+  flex-direction: column; */
 }
 #recentProjects h2 {
   font-size: 2rem;
   color: #292e47;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
-.flex-container-projects {
-  /* display: grid;
+.grid-container-projects {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 2%; */
-  display: flex;
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+  /* column-gap: 2%; */
+  /* display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: center; */
 }
 
 .project-card {
-  width: 340px;
+  /* width: 340px;
   /* width: auto; */
+  /* background-color: white;
+  margin-bottom: 20px;  */
+
+  width: 100%;
+  max-width: 340px;
   background-color: white;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-column-gap: 50px;
+  /* padding: 25px; */
 }
+
 .project-card-img {
-  width: 340px;
-  height: 240px;
+  /* width: 340px;*/
+  height: 200px;
+  width: 100%;
+  max-width: 340px;
+  object-fit: cover;
 }
 
 .project-card h4 {
   font-size: 1.3rem;
   color: #292e47;
   font-weight: 500;
-  margin: 30px 40px;
+  margin: 15px 25px;
 }
 
 .project-card p {
   color: #292e47;
   font-size: 1rem;
   font-weight: 400;
-  margin: 20px 40px;
+  margin: 0px 25px;
 }
 
 .project-card a {
   font-size: 1rem;
-  margin: 30px 40px;
+  margin: 40px 25px;
   display: inline-block;
 }
 
@@ -201,11 +236,13 @@ nav a:first-child {
   background-size: contain;
   margin: 200px auto 0 auto;
   position: relative;
-  width: 1320px;
+  /* width: 1320px; */
+  max-width: 95%;
 }
 
 #testimonial-Container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -213,14 +250,17 @@ nav a:first-child {
 }
 
 .testimonials-heading {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #ecf7ff;
+  /* max-width: 400px;
+  text-align: center; */
 }
 .testimonials-text {
   color: #ffc600;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   font-weight: 500;
+  line-height: 2.5rem;
 }
 .client {
   display: flex;
@@ -231,6 +271,7 @@ nav a:first-child {
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
+  object-fit: cover;
 }
 .client-info h4 {
   color: #a2d6f9;
@@ -246,27 +287,27 @@ nav a:first-child {
 
 /* emojis  */
 .emoji {
-  width: 120px;
+  width: 10vw;
 }
 .top-left {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 8%;
+  left: 8%;
 }
 .top-right {
   position: absolute;
-  top: 10%;
-  right: 10%;
+  top: 8%;
+  right: 8%;
 }
 .bottom-right {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
+  bottom: 8%;
+  right: 8%;
 }
 .bottom-left {
   position: absolute;
-  bottom: 10%;
-  left: 10%;
+  bottom: 8%;
+  left: 8%;
 }
 
 /*------------------------*/
@@ -276,46 +317,56 @@ nav a:first-child {
 /*------------------------*/
 
 #services {
-  margin: 200px auto 0 auto;
-  max-width: 1100px;
-  display: flex;
-  flex-direction: column;
+  margin: 100px auto 0 auto;
+  /* max-width: 1100px; */
+  width: 90vw;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 #services h2 {
   font-size: 2rem;
   color: #292e47;
   margin-bottom: 70px;
 }
-
-.flex-container-services {
-  display: flex;
+.grid-container-services {
+  /* display: flex;
+  flex: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
 }
 
 .service-card {
-  width: 340px;
+  width: 80%;
+  max-width: 340px;
   background-color: white;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px;
 }
 .service-card h4 {
   font-size: 1.3rem;
   color: #292e47;
   font-weight: 500;
-  margin: 30px 40px;
+  /* margin: 30px 40px; */
 }
 
 .service-card p {
   color: #292e47;
   font-size: 1rem;
   font-weight: 400;
-  margin: 20px 40px;
+  /* margin: 20px 40px; */
 }
 
 .service-card a {
   font-size: 1rem;
-  margin: 30px 40px;
+  /* margin: 30px 40px; */
   display: inline-block;
 }
 .service-card-icon {
@@ -323,7 +374,7 @@ nav a:first-child {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  margin: 2rem;
+  /* margin: 2rem; */
   background-image: url("/project-assets/services-section/icons/1.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -345,12 +396,11 @@ nav a:first-child {
   height: 450px;
   background-color: #ffc600;
   margin: 100px auto 0 auto;
-  width: 1320px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* width: 1320px; */
+  width: 95vw;
 }
 .subscribeContainer {
+  height: 450px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -360,7 +410,7 @@ nav a:first-child {
 }
 
 .subscribeContainer h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #292e47;
   margin: 20px 0;
 }
@@ -385,8 +435,8 @@ nav a:first-child {
 }
 .subscribe-textfield-wrapper {
   background-color: white;
-  /* padding: 10px 30px; */
-  margin-right: 20px;
+  padding: 10px 30px;
+  margin-right: 10px;
   display: flex;
   width: 300px;
   padding: 10px 0;
@@ -404,6 +454,9 @@ nav a:first-child {
   background-color: #072ac8;
   border: none;
   padding: 15px 30px;
+}
+.subscribeBtn:hover {
+  background-color: #292e47;
 }
 
 .s-form-fail {
@@ -425,8 +478,9 @@ nav a:first-child {
 .containerFooter {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
-  margin: 100px auto 50px auto;
+  /* max-width: 1100px; */
+  width: 90vw;
+  margin: 70px auto 50px auto;
 }
 
 .footerLinks {
@@ -446,8 +500,9 @@ a {
 /*------------------------*/
 
 #contactUs {
+  width: 90vw;
   margin: 100px auto 0 auto;
-  max-width: 1100px;
+  /* max-width: 1100px; */
 }
 
 #contactUs h1 {
@@ -513,7 +568,8 @@ a {
 
 #projectSection {
   margin: 100px auto 0 auto;
-  max-width: 1100px;
+  /* max-width: 1100px; */
+  width: 90vw;
   display: flex;
   flex-direction: column;
 }

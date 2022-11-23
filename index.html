@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RP Circle Agency</title>
     <link rel="stylesheet" href="./styles/styles-home.css" />
+    <link rel="stylesheet" href="./styles/mediaQueries.css" />
   </head>
   <body>
     <!-- Header Section  -->
@@ -40,7 +41,7 @@
             Circle is a digital design and development studio. We design and
             develop astonishing websites and mobile apps.
           </p>
-          <div>
+          <div class="heros-buttons-container">
             <a href="#">See our work</a>
             <a href="./contactUs.html" class="contactBtn">Get in touch</a>
           </div>
@@ -68,7 +69,7 @@
 
     <!-- Client section  -->
     <section id="clients">
-      <div id="client-container">
+      <div id="client-container" class="grid-clients">
         <img
           class="clientImg"
           src="./project-assets/logos/airbnb-logo.svg"
@@ -103,7 +104,7 @@
       <div>
         <h2>Recent Projects</h2>
       </div>
-      <div class="flex-container-projects" role="list">
+      <div class="grid-container-projects" role="list">
         <div class="project-card" role="list-item">
           <div>
             <img
@@ -201,7 +202,7 @@
     <!-- Our Services Section  -->
     <section id="services">
       <h2>Our Services</h2>
-      <div class="flex-container-services">
+      <div class="grid-container-services">
         <div class="service-card">
           <div class="service-card-icon icon-1"></div>
           <h4>User Interface Design</h4>
