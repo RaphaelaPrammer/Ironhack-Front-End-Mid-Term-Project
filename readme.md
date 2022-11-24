@@ -28,21 +28,22 @@ Difficulties:
 Goals:
 
 - [ ] improve CSS - group classes with same behavior/styles
-- [ ] HTML Template Projects
-- [ ] CSS Template Projects
-- [ ] Responsive Design Landing Page
-- [ ] Responsive Design Contact US Page
-- [ ] Responsive Design Template Projects
+- [x] HTML Template Projects
+- [x] CSS Template Projects
+- [x] Responsive Design Landing Page
+- [x] Responsive Design Contact US Page
+- [x] Responsive Design Template Projects
 
 Difficulties:
 
--
+- Responsive Design!! especially with font-sizes!!!
 -
 
 ### **Day 4: Thursday 24/11/2022**
 
 Goals:
 
+- [ ] Improve CSS - Font Sizes for Responsive""
 - [ ] JS Fetch GET for Recent Projects
 - [ ] JS Fetch POST for Contact Us Form
 - [ ] add Animations to Landing Page
