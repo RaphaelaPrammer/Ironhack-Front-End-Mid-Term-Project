@@ -1,199 +1,71 @@
-@media (max-width: 480px) {
+/* ------------------------------------  */
+/* --------------HAMBURGER--------------  */
+/* ------------------------------------  */
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  /* NAVBAR  */
+  .contactBtn1 {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    float: right;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: relative;
+    left: -110%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffc600;
+    width: 90%;
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  .nav-item {
+    margin: 20px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .navbar {
+    margin: 20px auto;
+  }
+}
+
+/* ------------------------------------  */
+/* -----------992px and more -----------  */
+/* ------------------------------------  */
+@media (min-width: 991px) {
   * {
-    font-size: 8px;
+    font-size: 19px;
   }
-  .heros-buttons-container {
-    flex-direction: column-reverse;
-  }
-  #heros-container {
-    margin-top: 0;
-  }
-  #heros-container h1 {
-    margin-top: 0;
-    /* font-size: 2rem; */
-  }
-  #hero-content.p {
-    /* font-size: 0.9rem; */
-  }
-  .heroimg {
-    /* width: 50%; */
-    max-width: 350px;
-    float: none;
-  }
-  /* Testimonials  */
-  .testimonials-heading {
-    width: 350px;
-  }
-  .testimonials-text {
-    width: 350px;
-  }
-
-  /* ---------PROJECT PAGES -------------- */
-  /* Header  */
-
-  /* Project Section  */
-  #projectSection {
-    margin-top: 20px;
-  }
-  #projectSection h1 {
-    margin: 0;
-    /* font-size: 2rem; */
-  }
-  .project-type-wrapper {
-    flex-direction: column;
-  }
-  .project-page-type {
-    /* font-size: 1.3rem; */
+  #heros,
+  #recentProjects,
+  #testimonials,
+  #services,
+  footer {
+    margin-top: 150px;
   }
 }
-/* --------------------------------------------------------------------------------  */
-/* --------------------------------------------------------------------------------  */
-/* --------------------------------------------------------------------------------  */
-@media (max-width: 759px) {
-  #heros-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-top: 50px;
-  }
-  #heros-container h1 {
-    margin-top: 0;
-    /* font-size: 2.2rem; */
-  }
-  #hero-content.p {
-    /* font-size: 1.2rem; */
-  }
-  .heros-buttons-container {
-    flex-direction: row-reverse;
-  }
-  #hero-content {
-    width: auto;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-  }
-  #hero-imgs {
-    /* width: 50%; */
-    max-width: 450px;
-  }
-  .cardimg {
-    display: none;
-  }
-  /* Clients  */
-  #client-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    justify-items: center;
-    grid-row-gap: 50px;
-    margin-top: 50px;
-  }
-  #client-container.grid-clients img:last-child {
-    display: none;
-  }
-  /* Projects  */
-  #recentProjects h2 {
-    text-align: center;
-  }
-  .grid-container-projects {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-  }
-  .project-card {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .project-card-img {
-    width: 100%;
-    object-fit: cover;
-    max-width: 100%;
-  }
-
-  /* Testimonials  */
-  .emoji {
-    display: none;
-  }
-  #testimonials {
-    height: 420px;
-    margin: 50px auto 0 auto;
-    max-width: 100%;
-  }
-  #testimonial-Container {
-    height: 420px;
-  }
-  .testimonials-heading {
-    max-width: 400px;
-    text-align: center;
-  }
-
-  /* Services  */
-  #services {
-    margin-top: 50px;
-  }
-  #services h2 {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  .grid-container-services {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-  }
-  .service-card {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-    padding: 25px;
-  }
-
-  /* Subscribe  */
-  #subscribe {
-    width: 100%;
-    margin-top: 50px;
-  }
-  #email-subscribe {
-    flex-direction: column;
-  }
-  .subscribe-textfield-wrapper {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 5px;
-    justify-content: center;
-  }
-  .subscribeBtn {
-    width: 100%;
-  }
-
-  /* Footer  */
-
-  .containerFooter {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .footer-content {
-    text-align: center;
-  }
-
-  /* ---------------- */
-  /* CONTACT US  */
-  .contact-row-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-  }
-}
-
-/* ----------------------------------------------  */
-
-/* --------------------------------------------------  */
 
 /* ------------------------------------------------  */
+/* -----------btw 766px and 990 px-------------------*/
+/* ------------------------------------------------  */
 
-/* @media (min-width: 760px) and (max-width: 990px)  */
-@media screen and (min-width: 760px) and (max-width: 990px) {
-  /* ------------------------------------  */
+@media (max-width: 991px) {
+  * {
+    font-size: 14px;
+  }
   /* Heros  */
   #heros-container {
     flex-direction: column;
@@ -217,8 +89,7 @@
   #hero-imgs {
     width: auto;
   }
-  /* ------------------------------------  */
-  /* Clients  */
+  /* ---------Clients---------------------------  */
   #client-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -230,15 +101,12 @@
   #client-container img:last-child {
     display: none;
   }
-  /* ------------------------------------  */
-  /* Projects  */
-
+  /* ------Projects------------------------------  */
   .grid-container-projects {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
-  /* ------------------------------------  */
-  /* Testimonial  */
+  /* -------Testimonial-----------------------------  */
   .testimonials-heading {
     max-width: 400px;
     text-align: center;
@@ -251,67 +119,176 @@
   #testimonial-Container {
     height: 500px;
   }
-  /* ------------------------------------  */
-  /* Services  */
+  /* -----Services-------------------------------  */
+
   #services {
     margin-top: 50px;
   }
   #services h2 {
     margin-bottom: 40px;
   }
-  /* ------------------------------------  */
-  /* Subscribe  */
+  /* ------Subscribe------------------------------  */
 }
 
-/* ------------------------------------  */
-/* --------------HAMBURGER--------------  */
-/* ------------------------------------  */
-@media screen and (max-width: 991px) {
-  /* NAVBAR  */
-  .contactBtn1 {
+/* --------------------------------------------------------------------------------  */
+/* --------------btw 481px and 765 px----------------------------------------------  */
+/* --------------------------------------------------------------------------------  */
+@media (max-width: 765px) {
+  #heros-container h1 {
+    margin-top: 0;
+  }
+  .cardimg {
     display: none;
   }
-  .hamburger {
-    display: block;
-    float: right;
-  }
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  .nav-menu {
-    position: relative;
-    left: -100%;
-    top: 100px;
-    gap: 0;
-    flex-direction: column;
-    background-color: #ffc600;
-    width: 90%;
+  /*---------- Projects ------------ */
+  #recentProjects h2 {
     text-align: center;
-    transition: 0.3s;
+  }
+  .grid-container-projects {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .project-card {
+    width: 100%;
+    max-width: 100%;
     margin-bottom: 20px;
   }
-  .nav-item {
-    margin: 20px 0;
+
+  .project-card-img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
   }
-  .nav-menu.active {
-    left: 0;
+
+  /* -----------Testimonials -------------- */
+  .emoji {
+    display: none;
   }
-  .navbar {
-    margin: 20px auto;
+  #testimonials {
+    height: 420px;
+    margin: 50px auto 0 auto;
+    max-width: 100%;
+  }
+  #testimonial-Container {
+    height: 420px;
+  }
+  .testimonials-heading {
+    max-width: 350px;
+    text-align: center;
+  }
+  .testimonials-text {
+    max-width: 350px;
+  }
+
+  /*---------- Services------------  */
+  #services h2 {
+    text-align: center;
+    /* margin-bottom: 40px; */
+  }
+  .grid-container-services {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .service-card {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 25px;
+  }
+
+  /* --------Subscribe --------------- */
+  #subscribe {
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+  }
+  .subscribeContainer {
+    height: 400px;
+  }
+  #email-subscribe {
+    flex-direction: column;
+  }
+  .subscribe-textfield-wrapper {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  .subscribeBtn {
+    width: 100%;
+  }
+
+  /* ------------Footer------------------  */
+
+  .containerFooter {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .footer-content {
+    text-align: center;
+  }
+
+  /* ---------------- */
+  /* CONTACT US  */
+  .contact-row-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
   }
 }
 
-/* ------------------------------------  */
-/* ------------------------------------  */
-/* ------------------------------------  */
-/* @media screen and (max-width: 1200px) {
-  #hero-content h1 {
-    font-size: 3rem;
+/* --------------------------------------------------------------------------------  */
+/* --------------below 481px --------------------------------------------------  */
+/* --------------------------------------------------------------------------------  */
+@media (max-width: 480px) {
+  * {
+    font-size: 12px;
   }
-} */
+  .heros-buttons-container {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  #heros-container {
+    margin-top: 0;
+  }
+  #heros-container h1 {
+    margin-top: 0;
+    /* font-size: 2rem; */
+  }
+  #hero-content.p {
+    margin-bottom: 0;
+  }
+  .heroimg {
+    width: 100%;
+    max-width: 350px;
+    /* float: none; */
+  }
+  /*------------ Testimonials-------------  */
+  .testimonials-heading {
+    width: 280px;
+  }
+  .testimonials-text {
+    width: 280px;
+  }
+  .subscribeContainer,
+  #subscribe {
+    height: 300px;
+  }
+
+  /* ---------PROJECT PAGES -------------- */
+
+  /*--------- Project Section--------------  */
+  #projectSection {
+    margin-top: 20px;
+  }
+  #projectSection h1 {
+    margin: 20px 0;
+  }
+  .project-type-wrapper {
+    flex-direction: column;
+  }
+  .project-page-image {
+    height: 300px;
+    margin: 20px 0 40px 0;
+  }
+}

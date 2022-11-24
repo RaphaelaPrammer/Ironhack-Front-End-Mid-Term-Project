@@ -56,6 +56,7 @@ header li {
 }
 
 header a {
+  font-size: 1rem;
   text-decoration: none;
   color: #6b708d;
   font-weight: 500;
@@ -160,7 +161,7 @@ header a {
 }
 
 #hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   /* font-size: 60px; */
   font-weight: 500;
   color: #292e47;
@@ -262,7 +263,7 @@ header a {
 }
 
 .project-card h4 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #292e47;
   font-weight: 500;
   margin: 15px 25px;
@@ -270,13 +271,14 @@ header a {
 
 .project-card p {
   color: #292e47;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   margin: 0px 25px;
+  line-height: 1.4rem;
 }
 
 .project-card a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 40px 25px;
   display: inline-block;
 }
@@ -308,7 +310,7 @@ header a {
 }
 
 .testimonials-heading {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #ecf7ff;
 
   /* max-width: 400px;
@@ -316,10 +318,10 @@ header a {
 }
 .testimonials-text {
   color: #ffc600;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: 500;
-  line-height: 2.5rem;
+  line-height: 2.3rem;
 }
 .client {
   display: flex;
@@ -520,15 +522,18 @@ header a {
 }
 
 .s-form-fail {
-  background-color: #ffdede;
+  display: none;
+  background-color: #f38a8a;
   margin-top: 10px;
-  padding-left: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
 .s-form-done {
-  background-color: #dddddd;
+  display: none;
+  background-color: #93e779;
   margin-top: 10px;
-  padding-left: 10px;
+  padding: 10px;
   text-align: center;
 }
 /*------------------------*/
@@ -569,18 +574,19 @@ a {
 }
 
 #contactUs h1 {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   font-weight: 500;
   color: #292e47;
   width: 100%;
   padding: 0;
+  margin-bottom: 20px;
 }
 .form-contact-container {
   display: flex;
   flex-direction: column;
 }
 .contact-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #6b708d;
   padding: 20px 0 10px 0;
 }
@@ -594,7 +600,7 @@ a {
   border: none;
   width: auto;
   height: 50px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-left: 20px;
 }
 .contact-row-grid {
@@ -613,7 +619,7 @@ a {
 .contact-text-input.textarea {
   height: 150px;
   font-family: "Roboto", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -643,19 +649,19 @@ a {
 }
 
 .project-page-title {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   font-weight: 500;
   color: #292e47;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .project-type-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .project-page-type {
   font-size: 1.8rem;

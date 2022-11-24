@@ -8,6 +8,8 @@ const infoJson = () => {
       let externalApiInfo = "";
       let newArray = res.slice(0, 3);
       newArray.forEach((element, index) => {
+        let title = element.title.slice(0, 20);
+        let content = element.body.slice(0, 100);
         externalApiInfo += `
         <div class="project-card" role="list-item">
           <div>
@@ -17,8 +19,8 @@ const infoJson = () => {
               alt="project-image-1"
             />
           </div>
-          <h4 class="project-title">${element.title}</h4>
-          <p class="project-description">${element.body}</p>
+          <h4 class="project-title">${title}</h4>
+          <p class="project-description">${content} ... </p>
           <a href="./projects-template.html">Learn More</a>
         </div>
         `;
