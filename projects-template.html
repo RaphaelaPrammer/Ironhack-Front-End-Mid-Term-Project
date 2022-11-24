@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RP Projects Circle Agency</title>
     <link rel="stylesheet" href="./styles/styles-home.css" />
+    <!-- <link rel="stylesheet" href="./styles/styles-projects.css" /> -->
     <link rel="stylesheet" href="./styles/mediaQueries.css" />
   </head>
   <body>
     <!-- Header Section  -->
     <header>
-      <div id="header-container">
-        <div>
-          <a href="#"
-            ><img src="./project-assets/logos/circle.svg" alt="Circle-logo"
-          /></a>
-        </div>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#recentProjects">Projects</a>
-          <a href="#services">Services</a>
-        </nav>
-        <div>
-          <!-- <div>
-            <img src="./project-assets/header/menue.png" alt="menu" />
-          </div> -->
-          <a href="./contactUs.html" class="contactBtn">Contact Us</a>
-        </div>
-      </div>
-    </header>
+      <nav class="navbar">
+        <a href="#"
+          ><img src="./project-assets/logos/circle.svg" alt="Circle-logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#recentProjects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+        </ul>
 
+        <div>
+          <a href="./contactUs.html" class="contactBtn1">Contact Us</a>
+        </div>
+        <div class="hamburger">
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+        </div>
+      </nav>
+    </header>
+    <!-- Project Section  -->
     <section id="projectSection">
       <h1 class="project-page-title">Simplify</h1>
       <div class="project-type-wrapper">
@@ -47,7 +55,7 @@
         alt="project-img-1"
       />
       <div class="project-text">
-        <p>
+        <p class="project-text-text">
           Simplify is lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Sed feugiat faucibus sem, id vulputate justo ornare non. Nullam et
           vehicula sem. Pellentesque bibendum massa non nisl posuere cursus.
@@ -56,28 +64,16 @@
           vestibulum. Etiam a sollicitudin leo. Nunc metus lectus, lacinia ut
           arcu quis, pretium congue lacus.
         </p>
-        <p>
-          Aliquam blandit varius metus, in mattis orci convallis sit amet. Fusce
-          et sem ac velit placerat ultrices in id dolor. Sed eget auctor metus.
-          Sed suscipit fringilla lectus, a maximus justo bibendum a. Donec et
-          pellentesque nisl, vitae tempus lorem. Sed efficitur cursus rhoncus.
-          Duis placerat nisi quis mi tincidunt, sit amet tincidunt urna
-          convallis. Nam et sagittis felis. Pellentesque placerat orci sodales
-          nisi convallis ultrices. Nunc posuere neque eu mi imperdiet
-          ullamcorper. Praesent tempor convallis rutrum. Vestibulum dignissim
-          pellentesque eros in placerat. Etiam at nisi quis quam sollicitudin
-          vehicula sit amet vel mi.
-        </p>
       </div>
     </section>
     <!-- other Projects Section 
      -->
     <section id="recentProjects">
       <div>
-        <h2>Recent Projects</h2>
+        <h2>Other Projects</h2>
       </div>
       <div class="grid-container-projects" role="list">
-        <div class="project-card" role="list-item">
+        <!-- <div class="project-card" role="list-item">
           <div>
             <img
               class="project-card-img"
@@ -85,8 +81,8 @@
               alt="project-image-1"
             />
           </div>
-          <h4>Simplify</h4>
-          <p>UI Design & App Development</p>
+          <h4 class="project-title">Simplify</h4>
+          <p class="project-description">UI Design & App Development</p>
           <a href="#">Learn More</a>
         </div>
         <div class="project-card" role="list-item">
@@ -112,7 +108,7 @@
           <h4>Vectorify</h4>
           <p>User Experience Design</p>
           <a href="#">Learn More</a>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -179,5 +175,7 @@
         </div>
       </div>
     </footer>
+    <script src="./JS/hamburgesa.js"></script>
+    <script src="./JS/projects-template.js"></script>
   </body>
 </html>

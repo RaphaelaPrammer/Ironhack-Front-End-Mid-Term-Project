@@ -11,24 +11,31 @@
   <body>
     <!-- Header Section  -->
     <header>
-      <div id="header-container">
+      <nav class="navbar">
+        <a href="#"
+          ><img src="./project-assets/logos/circle.svg" alt="Circle-logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#recentProjects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+        </ul>
+
         <div>
-          <a href="#"
-            ><img src="./project-assets/logos/circle.svg" alt="Circle-logo"
-          /></a>
+          <a href="./contactUs.html" class="contactBtn1">Contact Us</a>
         </div>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#recentProjects">Projects</a>
-          <a href="#services">Services</a>
-        </nav>
-        <div>
-          <!-- <div>
-            <img src="./project-assets/header/menue.png" alt="menu" />
-          </div> -->
-          <a href="./contactUs.html" class="contactBtn">Contact Us</a>
+        <div class="hamburger">
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
         </div>
-      </div>
+      </nav>
     </header>
     <!-- Form section  -->
     <section id="contactUs">
@@ -63,7 +70,7 @@
             <div class="contact-wrapper">
               <label for="phone" class="contact-title">Phone</label>
               <input
-                type="email"
+                type="number"
                 class="contact-text-input row"
                 placeholder="Enter your phone"
                 id="phone"
@@ -89,8 +96,12 @@
             class="contact-submit-btn"
           />
         </form>
-        <!-- <div class="s-form-done"></div>
-          <div class="s-form-fail"></div> -->
+        <div class="s-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="s-form-fail">
+          <p>Oops! Something went wrong while submitting the form.</p>
+        </div>
       </div>
     </section>
     <!-- Footer -->
@@ -113,5 +124,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./JS/hamburgesa.js"></script>
+    <script src="./JS/contact.js"></script>
   </body>
 </html>

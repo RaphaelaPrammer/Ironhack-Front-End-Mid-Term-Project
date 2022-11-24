@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   padding: 0; */
   color: #6b708d;
   background-color: #f2f4fc;
-  font-size: 10px;
+  /* font-size: 10px; */
   font-family: "Roboto", sans-serif;
 }
 body a {
@@ -135,7 +136,7 @@ header a {
   top: 0%;
   right: auto;
   bottom: auto;
-  max-width: 50%;
+  max-width: 60%;
 }
 .cardimg2 {
   position: absolute;
@@ -143,12 +144,12 @@ header a {
   top: auto;
   right: -25%;
   bottom: -20%;
-  max-width: 50%;
+  max-width: 60%;
 }
 #hero-imgs {
   width: 500px;
   position: relative;
-  /* max-width: 100%; */
+  max-width: 100%;
   /* display: inline-block; */
 }
 
@@ -159,17 +160,18 @@ header a {
 }
 
 #hero-content h1 {
-  font-size: 2rem;
+  font-size: 3.5rem;
+  /* font-size: 60px; */
   font-weight: 500;
   color: #292e47;
-  width: 90%;
+  width: 85%;
   padding: 0;
   margin-top: 70px;
   margin-bottom: 30px;
 }
 
 #hero-content p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   max-width: 80%;
   margin-bottom: 30px;
@@ -183,6 +185,7 @@ header a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 20px;
 }
 
 /*------------------------*/
@@ -307,6 +310,7 @@ header a {
 .testimonials-heading {
   font-size: 2rem;
   color: #ecf7ff;
+
   /* max-width: 400px;
   text-align: center; */
 }
@@ -565,7 +569,7 @@ a {
 }
 
 #contactUs h1 {
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-weight: 500;
   color: #292e47;
   width: 100%;
@@ -576,7 +580,7 @@ a {
   flex-direction: column;
 }
 .contact-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #6b708d;
   padding: 20px 0 10px 0;
 }
@@ -590,7 +594,7 @@ a {
   border: none;
   width: auto;
   height: 50px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-left: 20px;
 }
 .contact-row-grid {
@@ -609,7 +613,7 @@ a {
 .contact-text-input.textarea {
   height: 150px;
   font-family: "Roboto", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -619,6 +623,9 @@ a {
   border: none;
   padding: 25px 30px;
   margin-top: 20px;
+}
+.contact-submit-btn:hover {
+  background-color: #292e47;
 }
 
 /*--------------------------------------------------------*/
@@ -636,7 +643,7 @@ a {
 }
 
 .project-page-title {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 500;
   color: #292e47;
   width: 100%;
