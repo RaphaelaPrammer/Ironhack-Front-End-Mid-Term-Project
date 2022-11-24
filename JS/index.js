@@ -21,7 +21,7 @@ const infoJson = () => {
           </div>
           <h4 class="project-title">${title}</h4>
           <p class="project-description">${content} ... </p>
-          <a href="./projects-template.html">Learn More</a>
+          <a href="./project1.html">Learn More</a>
         </div>
         `;
       });

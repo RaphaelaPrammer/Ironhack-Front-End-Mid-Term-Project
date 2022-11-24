@@ -1,7 +1,8 @@
 // --------------------------------------------
 // FETCH API
 
-console.log("testtest");
+// console.log("testtest");
+
 const getInfoJson = () => {
   fetch("https://jsonplaceholder.typicode.com/posts")
     .then((response) => response.json())
@@ -32,7 +33,7 @@ const getOtherProjects = () => {
           </div>
           <h4 class="project-title">${title}</h4>
           <p class="project-description">${element.body} ... </p>
-          <a href="./projects-template.html">Learn More</a>
+          <a href="./project1.html">Learn More</a>
         </div>
         `;
       });
