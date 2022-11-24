@@ -29,9 +29,9 @@ const addInfo = (preventForm) => {
     })
     .then(() => inputs.reset())
     .catch((error) => {
-      console.log(error);
-      // let formFail = document.querySelector(".s-form-fail");
-      // formDone.style.display = "block";
+      let formFail = document.querySelector(".s-form-fail");
+      formFail.style.display = "block";
+      console.log("ERROR");
     });
 };
 

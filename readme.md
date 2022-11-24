@@ -44,8 +44,8 @@ Difficulties:
 Goals:
 
 - [ ] Improve CSS - Font Sizes for Responsive""
-- [ ] JS Fetch GET for Recent Projects
-- [ ] JS Fetch POST for Contact Us Form
+- [x] JS Fetch GET for Recent Projects
+- [x] JS Fetch POST for Contact Us Form
 - [ ] add Animations to Landing Page
 
 Difficulties:

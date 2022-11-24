@@ -48,7 +48,6 @@ nav a:first-child {
   margin-left: auto; 
   margin-top: 30px; 
 }  */
-
 header {
   margin: 0;
 }
@@ -79,7 +78,7 @@ header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 .nav-link {
