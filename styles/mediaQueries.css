@@ -46,18 +46,51 @@
 }
 
 /* ------------------------------------  */
-/* -----------992px and more -----------  */
+/* -----------1202px and more -----------  */
 /* ------------------------------------  */
-@media (min-width: 991px) {
+@media (min-width: 1202px) and (max-width: 4000px) {
   * {
-    font-size: 19px;
+    font-size: 22px;
+  }
+
+  #heros-container,
+  .navbar,
+  #client-container,
+  #recentProjects,
+  #services,
+  .containerFooter {
+    max-width: 80vw;
+  }
+  #testimonials,
+  #subscribe {
+    max-width: 85vw;
+  }
+}
+/* ------------------------------------  */
+/* -----------btw. 991px and 1200px -----------  */
+/* ------------------------------------  */
+@media (min-width: 991px) and (max-width: 1200px) {
+  * {
+    font-size: 17px;
   }
   #heros,
   #recentProjects,
   #testimonials,
   #services,
   footer {
-    margin-top: 150px;
+    margin-top: 100px;
+  }
+  #heros-container,
+  .navbar,
+  #client-container,
+  #recentProjects,
+  #services,
+  .containerFooter {
+    max-width: 80vw;
+  }
+  #testimonials,
+  #subscribe {
+    max-width: 85vw;
   }
 }
 
@@ -75,7 +108,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    /* margin-top: 20px; */
+    margin-top: 20px;
   }
   .heros-buttons-container {
     flex-direction: row-reverse;

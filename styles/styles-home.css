@@ -136,7 +136,7 @@ header a {
   /* width: 40vw; */
   /* width: 500px; */
   /* width: 100%; */
-  max-width: 500px;
+  max-width: 450px;
   float: right;
 }
 .cardimg1 {
@@ -289,6 +289,11 @@ header a {
   font-size: 1.1rem;
   margin: 40px 25px;
   display: inline-block;
+}
+
+.project-card:hover {
+  background-color: aliceblue;
+  /* border: white 2px solid; */
 }
 
 /* Flashing */
