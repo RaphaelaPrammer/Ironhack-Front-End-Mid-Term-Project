@@ -61,9 +61,14 @@ Goals:
 - [x] structuring and creating Presentation Slides
 - [x] CSS final touch
 - [ ] Presentation 15:00
--
 
 Difficulties:
 
--
--
+- Media Queries - probably a mess concerning desktop width and big screens!!
+- topic with min-width, max-width, still not really clear how it should be combined and structured and ordered within the stylesheet.
+
+Backlog:
+
+- [ ] Hamburger Menu Styling
+- [ ] Fetch Content for other Project cards
+- [ ] Code Cleaning
