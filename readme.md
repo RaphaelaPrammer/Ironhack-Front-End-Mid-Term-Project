@@ -30,9 +30,9 @@ Goals:
 - [ ] improve CSS - group classes with same behavior/styles
 - [x] HTML Template Projects
 - [x] CSS Template Projects
-- [x] Responsive Design Landing Page
-- [x] Responsive Design Contact US Page
-- [x] Responsive Design Template Projects
+- [ ] Responsive Design Landing Page ... Work in Progress
+- [ ] Responsive Design Contact US Page
+- [ ] Responsive Design Template Projects
 
 Difficulties:
 
@@ -43,21 +43,23 @@ Difficulties:
 
 Goals:
 
-- [ ] Improve CSS - Font Sizes for Responsive""
+- [x] Improve CSS - Font Sizes for Responsive""
+- [x] Responsive Design Landing Page
 - [x] JS Fetch GET for Recent Projects
 - [x] JS Fetch POST for Contact Us Form
 - [ ] add Animations to Landing Page
 
 Difficulties:
 
--
--
+- Hamburger Menu Styling
+- order of different media queries - some styles were overwriting others!!!
 
 ### **Day 5: Friday 25/11/2022**
 
 Goals:
 
-- [ ] structuring and creating Presentation Slides
+- [x] structuring and creating Presentation Slides
+- [x] CSS final touch
 - [ ] Presentation 15:00
 -
 
