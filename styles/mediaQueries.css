@@ -28,20 +28,20 @@
     top: 50px;
     gap: 0;
     flex-direction: column;
-    background-color: #ffc600;
+    background-color: #c8c8c8;
     width: 90%;
     text-align: center;
     transition: 0.3s;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
   }
   .nav-item {
-    margin: 20px 0;
+    margin: 10px 0;
   }
   .nav-menu.active {
     left: 0;
   }
   .navbar {
-    /* margin: 20px auto; */
+    margin: 30px auto;
   }
 }
 
@@ -75,13 +75,13 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .heros-buttons-container {
     flex-direction: row-reverse;
   }
   #hero-content h1 {
-    /* font-size: 2.5rem; */
+    margin-top: 0px;
   }
   #hero-content {
     width: auto;
@@ -214,7 +214,7 @@
   .subscribe-textfield-wrapper {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     justify-content: center;
   }
   .subscribeBtn {
@@ -273,6 +273,7 @@
   .testimonials-text {
     width: 280px;
   }
+  /*------------ Subscribe-------------  */
   .subscribeContainer,
   #subscribe {
     height: 300px;

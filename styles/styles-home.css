@@ -113,6 +113,13 @@ header a {
 .contactBtn2:hover {
   background-color: #292e47;
 }
+
+.display-none {
+  display: none;
+}
+.display-inline-block {
+  display: inline-block;
+}
 /*------------------------*/
 /*------------------------*/
 /* Heros section  */
@@ -480,7 +487,7 @@ header a {
 .subscribeContainer p {
   font-size: 0.9rem;
   color: #6b708d;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* margin: 0 auto 20px auto; */
 }
 
@@ -490,12 +497,14 @@ header a {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 #email-subscribe {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .subscribe-textfield-wrapper {
   background-color: white;
@@ -511,12 +520,15 @@ header a {
 .subscribe-textfield-wrapper input {
   border: none;
   align-items: center;
+  width: 100%;
+  font-size: 0.7rem;
 }
 .subscribeBtn {
   color: #ffff;
   background-color: #072ac8;
   border: none;
   padding: 12px 30px;
+  font-size: 0.9rem;
 }
 .subscribeBtn:hover {
   background-color: #292e47;
@@ -536,6 +548,7 @@ header a {
   margin-top: 10px;
   padding: 10px;
   text-align: center;
+  align-items: center;
 }
 /*------------------------*/
 /*------------------------*/

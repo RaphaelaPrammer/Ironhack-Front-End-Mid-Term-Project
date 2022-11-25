@@ -1,9 +1,9 @@
 //--------------------------------------------
 //HAMBURGER MENU
 
-console.log("TEST");
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+const navLogo = document.querySelector(".nav-logo");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");

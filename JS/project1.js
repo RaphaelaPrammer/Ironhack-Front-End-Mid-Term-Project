@@ -22,6 +22,7 @@ const getOtherProjects = () => {
       let newArray = res.slice(1, 4);
       newArray.forEach((element, index) => {
         let title = element.title.slice(0, 20);
+        let body = element.body.slice(0, 100);
         externalApiInfo += `
         <div class="project-card" role="list-item">
           <div>
@@ -32,7 +33,7 @@ const getOtherProjects = () => {
             />
           </div>
           <h4 class="project-title">${title}</h4>
-          <p class="project-description">${element.body} ... </p>
+          <p class="project-description">${body} ... </p>
           <a href="./project1.html">Learn More</a>
         </div>
         `;
